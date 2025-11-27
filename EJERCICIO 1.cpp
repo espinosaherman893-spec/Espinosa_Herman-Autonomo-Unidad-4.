@@ -20,7 +20,7 @@ cantidad de caracteres. */
 #include <algorithm> 
 using namespace std;
 
-void generar_Permutationes(string str, int start) {
+void generar_Permutationes(string str, int inicio) {
 
     if (inicio == str.length() - 1) {
         cout << str << endl;
@@ -50,3 +50,4 @@ int main() {
     
     return 0; 
 }
+
